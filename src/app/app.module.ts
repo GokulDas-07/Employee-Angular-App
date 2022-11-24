@@ -8,6 +8,7 @@ import { EmployeeAddComponent } from './employee-add/employee-add.component';
 import { EmployeeSearchComponent } from './employee-search/employee-search.component';
 import { EmployeeDeleteComponent } from './employee-delete/employee-delete.component';
 import { EmployeeViewComponent } from './employee-view/employee-view.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EmployeeViewComponent } from './employee-view/employee-view.component';
     EmployeeAddComponent,
     EmployeeSearchComponent,
     EmployeeDeleteComponent,
-    EmployeeViewComponent
+    EmployeeViewComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
