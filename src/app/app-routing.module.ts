@@ -7,7 +7,7 @@ import { EmployeeSearchComponent } from './employee-search/employee-search.compo
 import { EmployeeViewComponent } from './employee-view/employee-view.component';
 
 const routes: Routes = [
-  {path:"login",component:AdminLoginComponent},
+  {path:"",component:AdminLoginComponent},
   {path:"add",component:EmployeeAddComponent},
   {path:"search",component:EmployeeSearchComponent},
   {path:"delete",component:EmployeeDeleteComponent},
